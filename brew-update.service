@@ -1,0 +1,11 @@
+[Unit]
+Description=Update Homebrew packages (host)
+After=distrobox-upgrade.service
+Wants=distrobox-upgrade.service
+
+[Service]
+Type=oneshot
+ExecStart=%h/.local/bin/brew-update.sh
+
+[Install]
+WantedBy=default.target
