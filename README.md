@@ -1,3 +1,5 @@
+[🇧🇷 Português](https://github.com/diogopessoa/brew-update/blob/main/REAMDE-PT_br.md)
+
 # 🍺 Homebrew auto-update (Fedora Atomic)
 
 Automatic update of **Homebrew installed on the host**.
