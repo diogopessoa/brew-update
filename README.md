@@ -105,4 +105,4 @@ MIT
 
 ## Credits
 - [Homebrew](https://brew.sh/)
-- [Guia Homebrew no Silverblue](https://github.com/diogopessoa/my-packages-lists/blob/main/silverblue/brew-fedora-silverblue.md)
+- [Homebrew - Guia de Instalação no Silverblue](https://github.com/diogopessoa/my-packages-lists/blob/main/silverblue/brew-fedora-silverblue.md)
