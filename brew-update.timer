@@ -1,0 +1,13 @@
+[Unit]
+Description=Update Homebrew weekly
+
+[Timer]
+# Runs every Wednesday
+OnCalendar=Wed 10:05:00
+# Tolerance for execution grouping
+AccuracySec=1h
+# Run if missed last window
+Persistent=true
+
+[Install]
+WantedBy=timers.target
