@@ -33,7 +33,7 @@ status_timer="${RED} ✗${NC}"
 # ============================================================
 clear
 echo -e "${BLUE}╭────────────────────────────────────────╮${NC}"
-echo -e "${GREEN}│  ${BOLD}Homebrew Update – Fedora Atomic${NC}${GREEN}  │${NC}"
+echo -e "${GREEN}│  ${BOLD}Homebrew Update – Fedora Atomic${NC}${GREEN}     │${NC}"
 echo -e "${BLUE}╰────────────────────────────────────────╯${NC}"
 
 # ============================================================
