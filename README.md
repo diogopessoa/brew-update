@@ -9,10 +9,10 @@ Automatic update of **Homebrew installed on the host**.
 - Timer and weekly update with notification
 
 ## Prerequisites
-- **Fedora atomic** Silverblue, Kinoite, Fedora COMISC Atomic...
+- **Fedora atomic** Silverblue, Kinoite, Fedora COSMIC Atomic...
 - **Homebrew installed on Fedora Atomic**
-  - [Meu guia de Instalação Homebrew no Silverblue](https://github.com/diogopessoa/my-packages-lists/blob/main/silverblue/brew-fedora-silverblue.md)
-  - [see the original install](https://brew.sh/)
+  - [Homebrew - Guia de Instalação no Silverblue](https://github.com/diogopessoa/my-packages-lists/blob/main/silverblue/brew-fedora-silverblue.md)
+  - [See the original install](https://brew.sh/)
 
 ## File Destination
 
