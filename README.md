@@ -1,23 +1,24 @@
-[🇧🇷 Português](https://github.com/diogopessoa/brew-update/blob/main/REAMDE-PT_br.md)
-
 # 🍺 Homebrew auto-update (Fedora Atomic)
 
-The script automates weekly updates of **Homebrew packages on the host** and notifies you when it's finished.
+O script automatiza atualizações semanais dos pacotes Homebrew no host e notifica quando a atualização for concluída.
 
-## Prerequisites
+## Pré-requisitos
+
 - **Fedora atomic** Silverblue, Kinoite, Fedora COSMIC Atomic...
 - **Homebrew installed on Fedora Atomic**
   - [Homebrew - Guia de Instalação no Silverblue](https://github.com/diogopessoa/my-packages-lists/blob/main/silverblue/brew-fedora-silverblue.md)
-  - [See the original install](https://brew.sh/)
+  - [Original Homebrew install](https://brew.sh/)
 
-## File Destination
+##  Destino dos Arquivos 
+
+Este mapa mostra o destino de cada arquivo nas pastas após a execução:
 
 ``` 
-Destination Path
+Local dos arquivos 
 
 ├── ~/.local/bin/brew-update.sh # Main executable (brew-update.sh)
 ├── ~/.config/systemd/user/brew-update.service # Systemd service
-└── ~/.config/systemd/user/distrobox-upgrade.timer # No meu caso foi usado o `distrobox-upgrade.timer`
+└── ~/.config/systemd/user/brew.timer # System timer
 ``` 
 
 ## Installation
