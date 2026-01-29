@@ -2,11 +2,7 @@
 
 # 🍺 Homebrew auto-update (Fedora Atomic)
 
-Automatic update of **Homebrew installed on the host**.
-
-## What does it do
-- Updates Homebrew packages on the host
-- Timer and weekly update with notification
+The script automates weekly updates of **Homebrew packages on the host** and notifies you when it's finished.
 
 ## Prerequisites
 - **Fedora atomic** Silverblue, Kinoite, Fedora COSMIC Atomic...
@@ -23,7 +19,6 @@ Destination Path
 ├── ~/.config/systemd/user/brew-update.service # Systemd service
 └── ~/.config/systemd/user/distrobox-upgrade.timer # No meu caso foi usado o `distrobox-upgrade.timer`
 ``` 
-
 
 ## Installation
 
