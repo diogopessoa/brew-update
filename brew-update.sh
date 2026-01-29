@@ -13,5 +13,5 @@ brew cleanup
 
 # Notificação (somente se possível)
 if command -v notify-send >/dev/null 2>&1 && [ -n "${DISPLAY:-}" ]; then
-  notify-send "🍺 Brew" "Atualizado com sucesso!"
+  notify-send "🍺 Brew" "Pacotes atualizado com sucesso!"
 fi
