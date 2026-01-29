@@ -16,9 +16,9 @@ Este mapa mostra o destino de cada arquivo nas pastas após a execução:
 ``` 
 Local dos arquivos 
 
-├── ~/.local/bin/brew-update.sh # Main executable (brew-update.sh)
+├── ~/.local/bin/brew-update.sh # Main executable
 ├── ~/.config/systemd/user/brew-update.service # Systemd service
-└── ~/.config/systemd/user/brew.timer # System timer
+└── ~/.config/systemd/user/brew.timer # Systemd timer
 ``` 
 
 ## Instalação 
