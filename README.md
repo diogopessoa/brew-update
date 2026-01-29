@@ -21,18 +21,18 @@ Local dos arquivos
 └── ~/.config/systemd/user/brew.timer # System timer
 ``` 
 
-## Installation
+## Instalação 
 
-Run the following command to execute the script `brew-update`:
+Execute o seguinte comando no terminal:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/diogopessoa/brew-update/main/install.sh | bash
 ```
-**✅️ All done!**
+**✅️ Tudo pronto!**
 
-## License
+## Licença 
 MIT
 
-## Credits
+## Referência 
 - [Homebrew](https://brew.sh/)
 - [Homebrew - Guia de Instalação no Silverblue](https://github.com/diogopessoa/my-packages-lists/blob/main/silverblue/brew-fedora-silverblue.md)
