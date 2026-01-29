@@ -33,13 +33,13 @@ status_timer="${RED} ✗${NC}"
 # ============================================================
 clear
 echo -e "${BLUE}╭────────────────────────────────────────╮${NC}"
-echo -e "${GREEN}│  ${BOLD}Homebrew Update – Fedora Atomic ${NC}${GREEN}       │${NC}"
+echo -e "${GREEN}│  ${BOLD}Homebrew Auto-Update ${NC}${GREEN}    │${NC}"
 echo -e "${BLUE}╰────────────────────────────────────────╯${NC}"
 
 # ============================================================
 # CONFIGURAÇÕES
 # ============================================================
-echo -e "\n==> Executando o script 'Homebrew Update'..."
+echo -e "\n==> Executando o script 'Homebrew Auto-Update'..."
 
 REPO_RAW="https://raw.githubusercontent.com/diogopessoa/brew-update/main"
 
